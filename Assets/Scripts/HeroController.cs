@@ -46,6 +46,8 @@ public class HeroController : MonoBehaviour {
         }
 
         anim.SetFloat("VerticalSpeed", vertical);
+
+
         //Speed==0
         if (Mathf.Abs(vertical) > 0 || Mathf.Abs(horizontal) > 0)
         {
